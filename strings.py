@@ -38,4 +38,7 @@ print('String capitalize')
 capitalize = "hello there".capitalize()
 print(capitalize)
 
-# # ! LOOPS
+# # ! LOOPS -  30 mins
+# abstract data types - stacks, ques, arrays/lists - 30 mins, md arrays
+
+# third party packages - 1 hr
