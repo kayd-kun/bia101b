@@ -21,7 +21,13 @@ def greet(name, greeting="Hello"):
 greet("Alice")  # Output: Hello, Alice!
 greet("Bob", "Hi")  # Output: Hi, Bob!
 
-#! args in functions
+#! Nested Functions:
+def outer_func(x):
+    def inner_func(y):
+        return x + y
+    return inner_func
+
+#! - READ args in functions
 # *args (Non-Keyword Arguments)
 def print_numbers(*args):
     for arg in args:
@@ -88,12 +94,6 @@ def multiply(a, b):
 
 print(apply_operation(add, 3, 4))  # Output: 7
 print(apply_operation(multiply, 3, 4))  # Output: 12
-
-#! Nested Functions:
-def outer_func(x):
-    def inner_func(y):
-        return x + y
-    return inner_func
 
 add_with_5 = outer_func(5)
 print(add_with_5(3))  # Output: 8
