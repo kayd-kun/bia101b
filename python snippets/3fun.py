@@ -103,7 +103,7 @@ print(add_with_5(10))  # Output: 15
 #? 1. Write a function to find the max of three numbers
 #? 2. Write a function to sum all the numbers in a list
 #? 3. Write a function to multiply all the numbers in a list
-#? 4. Write a function to reverse a string
+#? 4. Write a function to reverse a string - without using string methods
 
 #? 5. Write a function to print the even numbers from a given list
 #* Example: 
