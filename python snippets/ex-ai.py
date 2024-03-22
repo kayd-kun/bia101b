@@ -33,7 +33,6 @@ def calculate_total_score(input_file):
             total_score += round_score
     return total_score
 
-# Replace 'input_file_name' with the appropriate name of your input file
-input_file_name = "input_9_cap1.txt"
+input_file_name = "input.txt"
 total_score = calculate_total_score(input_file_name)
 print(f"Total score: {total_score}")
